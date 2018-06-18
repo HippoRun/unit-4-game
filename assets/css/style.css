@@ -1,0 +1,102 @@
+@media only screen and (max-width: 480px) {
+    body {
+        background-color: red;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: blue;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    body {
+        background-color: black;
+    }
+}
+
+body {
+    background-image: url(https://wonderopolis.org/wp-content/uploads/2018/02/Jungledreamstime_l_56902828_1.jpg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+}
+
+img {
+    width: 197px;
+    height: 146px;
+    border: 1px solid black;
+}
+
+h1 {
+    margin-left: 50%;
+    background-color: transparent;
+    margin-right: 36%;
+}
+
+#rules {
+    margin-left: 21%;
+    margin-right: 67%;
+    margin-bottom: .5%;
+    background-color: transparent;
+    padding-left: .5%;
+    
+}
+
+#rules-expanded {
+    display: none;
+    background-color:transparent;
+    padding-right: 55%;
+    padding-left: 21.1%;
+} 
+
+
+.animal {
+    margin-left: 21%;
+    margin-right:67%;
+    background-color:transparent;
+    margin-bottom: .5%;
+
+}
+
+.animal h2 {
+        padding:0% 0% 0% 3%;
+
+}
+
+.animal p {
+        padding:0% 0% 0% 3%;
+
+}
+
+#win-loss {
+    margin-left: 21%;
+    margin-right:67%;
+    background-color: transparent;
+    margin-bottom: .5%;
+}
+
+#win-loss p {
+        padding:0% 0% 0% 3%;
+}
+
+.images {
+    margin-left: 20%;    
+}
+
+.finalScore {
+    margin-left: 21%;
+    margin-right:67%;
+    background-color: transparent;
+}
+
+.finalScore p{
+    padding:0% 0% 0% 3%;
+}

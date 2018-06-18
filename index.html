@@ -1,14 +1,53 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Animal Score</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-    <script src="assets/javascript/game.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js" defer></script>
 </head>
+
 <body>
-    
+    <header>
+        <h1><font color = "white"><b>Animal Score</b></font></h1>
+    </header>
+
+    <main>
+        <article id="rules"><font color = "white"><b> Rules! (click to expand)</b></font></article>
+        <p id="rules-expanded">
+            <font color = "white"><b>You will be given a random number at the start of the game.
+            There are four animals below. By clicking on an animal you will add a specific
+            amount of points to your total score.
+            You win the game by matching your total score to the random number.
+            The value of each aniaml is hidden from you until you click on it.
+            Each time when the game starts, the game will change the value of each animal.</b></font>
+        </p>
+        <aside class="animal">
+            <h2><font color = "white"><b>Hilarious Animals</h2></b></font>
+            <p><font color = "white"><b>Points: <span id="computer-guess"></span></b></font></p>
+        </aside>
+        <aside id="win-loss">
+            <p><font color = "white"><b>Wins:<span id="wins"></span></b></font></p>
+            <p><font color = "white"><b>Losses:<span id="losses"></span></b></font></p>
+        </aside>
+        <article class="images">
+            <img class="gems" id="gem-1" src="assets/images/grumpycat.jpg" alt="grumpycat" />
+            <img class="gems" id="gem-2" src="assets/images/hippo.jpg" alt="hippo" />
+            <img class="gems" id="gem-3" src="assets/images/hitmanmonkey.jpg" alt="hitmanmonkey" />
+            <img class="gems" id="gem-4" src="assets/images/moneysloth.jpg" alt="moneysloth" />
+
+        </article>
+        <article class="finalScore">
+            <p><font color = "white"><b>Your Points:</p></b></font>
+            <p><font color = "white"><b><span id="animalNum"></span></b></font></p>
+        </article>
+    </main>
+
+
 </body>
+
 </html>
